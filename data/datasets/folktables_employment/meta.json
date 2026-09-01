@@ -1,0 +1,49 @@
+{
+  "name": "folktables_employment",
+  "task_type": "classification",
+  "cat_features": [
+    "MAR",
+    "SEX",
+    "DIS",
+    "ESP",
+    "MIG",
+    "CIT",
+    "MIL",
+    "ANC",
+    "NATIVITY",
+    "DEAR",
+    "DEYE",
+    "DREM",
+    "RAC1P",
+    "RELP"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL"
+  ],
+  "shift_description": "temporal: 2014 for training and 2018 for testing",
+  "n_train": 1143035,
+  "n_test": 1172500,
+  "n_features": 16,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "task": "employment",
+    "train_year": "2014",
+    "test_year": "2018",
+    "train_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ],
+    "test_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ]
+  }
+}

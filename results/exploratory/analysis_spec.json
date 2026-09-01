@@ -1,0 +1,34 @@
+{
+  "analysis_date": "2026-08-14",
+  "public_evidence_table": "results/evaluations/variant_dataset_effects.csv",
+  "primary_scope": "82 main datasets. The 10 related TabReD gap versions are excluded.",
+  "primary_unit": "one fold-aggregated value per model, dataset and individual method configuration",
+  "primary_outcome": "relative error reduction from model-level mean errors, masked where the inductive baseline is near-perfect",
+  "correlation": "Spearman rank correlation",
+  "multiplicity": "Benjamini-Hochberg within each specification-by-model block. Within-method q-values are also reported.",
+  "minimum_n_to_compute": 8,
+  "minimum_n_to_report_as_confirmatory": 20,
+  "raw_feature_sampling": {
+    "missingness_and_categories": 50000,
+    "per_feature_shift_and_skew": 10000,
+    "numeric_correlation_rows": 5000,
+    "numeric_correlation_features": 100
+  },
+  "post_evaluation_columns": [
+    "baseline_normalized_error",
+    "baseline_difficulty_pctile",
+    "baseline_fold_sd_normalized",
+    "baseline_auc",
+    "baseline_nrmse",
+    "target_shift_score_posthoc",
+    "regression_target_mean_delta_std_posthoc"
+  ],
+  "cautions": [
+    "Correlations are exploratory associations and do not show which method should be selected for a new dataset.",
+    "Baseline performance is mathematically coupled to relative lift. The normalized absolute-gain sensitivity addresses this dependence.",
+    "The three models have different dataset and method coverage.",
+    "Task-specific traits use fewer datasets. Every cell reports its own n.",
+    "Test-target shift and baseline performance use test labels and are post-hoc explanatory characteristics.",
+    "The 10 related TabReD gap versions are excluded from the primary matrix to avoid pseudo-replication."
+  ]
+}

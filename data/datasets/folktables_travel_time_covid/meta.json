@@ -1,0 +1,49 @@
+{
+  "name": "folktables_travel_time_covid",
+  "task_type": "classification",
+  "cat_features": [
+    "MAR",
+    "SEX",
+    "DIS",
+    "ESP",
+    "MIG",
+    "RELP",
+    "RAC1P",
+    "PUMA",
+    "CIT",
+    "OCCP",
+    "POWPUMA",
+    "POVPIP",
+    "ST",
+    "JWTR"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL"
+  ],
+  "shift_description": "temporal: 2019 for training and 2022 for testing",
+  "n_train": 543164,
+  "n_test": 557465,
+  "n_features": 16,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "task": "travel_time",
+    "train_year": "2019",
+    "test_year": "2022",
+    "train_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ],
+    "test_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ]
+  }
+}

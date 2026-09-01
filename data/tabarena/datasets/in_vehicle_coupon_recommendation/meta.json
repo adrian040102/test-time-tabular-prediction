@@ -1,0 +1,301 @@
+{
+  "name": "in_vehicle_coupon_recommendation",
+  "task_type": "classification",
+  "cat_features": [
+    "destination",
+    "passenger",
+    "weather",
+    "expiration",
+    "gender",
+    "age",
+    "maritalStatus",
+    "has_children",
+    "education",
+    "occupation",
+    "income",
+    "car",
+    "Bar",
+    "CoffeeHouse",
+    "CarryAway",
+    "RestaurantLessThan20",
+    "Restaurant20To50",
+    "toCoupon_GEQ15min",
+    "toCoupon_GEQ25min",
+    "direction_same",
+    "direction_opp",
+    "coupon"
+  ],
+  "num_features": [
+    "temperature",
+    "time"
+  ],
+  "shift_description": "TabArena (IID, single random split)",
+  "n_train": 10147,
+  "n_test": 2537,
+  "n_features": 24,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "source": "tabarena",
+    "openml_study_id": 457,
+    "openml_dataset_id": 46937,
+    "openml_task_id": 363681,
+    "openml_dataset_name": "in_vehicle_coupon_recommendation",
+    "test_size": 0.2,
+    "n_total": 12684,
+    "split_protocol": "Single IID split with seed 42. Classification targets were stratified when each class had at least two samples. The TabArena official protocol uses repeated CV (10x3 for n<2500, 3x3 otherwise).",
+    "n_repeats": 10,
+    "n_folds": 3,
+    "n_samples": 1,
+    "data_parquet": "data.parquet",
+    "folds_npz": "folds.npz",
+    "fold_protocol": "OpenML official CV: 10 repeats x 3 folds x 1 sample = 30 splits (stratified for classification)",
+    "feature_type_repairs": [
+      "Declared 'coupon' as categorical based on its stored dtype."
+    ],
+    "feature_type_repair_date": "2026-07-30"
+  },
+  "n_total_folds": 30,
+  "fold_specs": [
+    {
+      "fold_idx": 0,
+      "repeat": 0,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 1,
+      "repeat": 0,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 2,
+      "repeat": 0,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 3,
+      "repeat": 1,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 4,
+      "repeat": 1,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 5,
+      "repeat": 1,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 6,
+      "repeat": 2,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 7,
+      "repeat": 2,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 8,
+      "repeat": 2,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 9,
+      "repeat": 3,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 10,
+      "repeat": 3,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 11,
+      "repeat": 3,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 12,
+      "repeat": 4,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 13,
+      "repeat": 4,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 14,
+      "repeat": 4,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 15,
+      "repeat": 5,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 16,
+      "repeat": 5,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 17,
+      "repeat": 5,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 18,
+      "repeat": 6,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 19,
+      "repeat": 6,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 20,
+      "repeat": 6,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 21,
+      "repeat": 7,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 22,
+      "repeat": 7,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 23,
+      "repeat": 7,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 24,
+      "repeat": 8,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 25,
+      "repeat": 8,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 26,
+      "repeat": 8,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 27,
+      "repeat": 9,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 28,
+      "repeat": 9,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    },
+    {
+      "fold_idx": 29,
+      "repeat": 9,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 8456,
+      "test_size": 4228
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "synthetic_label_shift",
+  "task_type": "classification",
+  "cat_features": [
+    "OCCP",
+    "MAR",
+    "ST"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL",
+    "WKHP",
+    "CAPITALGAIN",
+    "CAPITALLOSS"
+  ],
+  "shift_description": "synthetic label shift: P(Y=1) is approximately 0.43 in training and 0.65 in testing",
+  "n_train": 50000,
+  "n_test": 50000,
+  "n_features": 8,
+  "seed_used": 42,
+  "extra": {
+    "shift_mode": "label_shift",
+    "label_shift_prevalence": 0.65,
+    "seed": 42
+  }
+}

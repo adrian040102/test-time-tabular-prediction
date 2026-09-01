@@ -1,0 +1,6 @@
+name: shifts_weather
+loader: src.data.shifts_weather:load_shifts_weather
+params:
+  train_split: dev_in
+  test_split: dev_out
+  max_samples: 50000

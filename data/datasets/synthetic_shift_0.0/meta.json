@@ -1,0 +1,26 @@
+{
+  "name": "synthetic_shift_0.0",
+  "task_type": "classification",
+  "cat_features": [
+    "OCCP",
+    "MAR",
+    "ST"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL",
+    "WKHP",
+    "CAPITALGAIN",
+    "CAPITALLOSS"
+  ],
+  "shift_description": "synthetic covariate shift (strength=0.0)",
+  "n_train": 10000,
+  "n_test": 10000,
+  "n_features": 8,
+  "seed_used": 42,
+  "extra": {
+    "shift_strength": 0.0,
+    "shift_mode": "full",
+    "seed": 42
+  }
+}

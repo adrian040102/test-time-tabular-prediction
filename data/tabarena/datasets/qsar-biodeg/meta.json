@@ -1,0 +1,314 @@
+{
+  "name": "qsar-biodeg",
+  "task_type": "classification",
+  "cat_features": [
+    "Presence_CBr_At_Dist1",
+    "Presence_CCl_At_Dist3",
+    "N073_chemical_substructure",
+    "Presence_CBr_At_Dist4",
+    "C026_chemical_substructure"
+  ],
+  "num_features": [
+    "Laplace_Leading_Eigenvalue",
+    "Weighted_Balaban_Index_Barysz_Matrix",
+    "Num_Heavy_Atoms",
+    "Freq_NN_At_Dist1",
+    "Freq_CN_At_Dist4",
+    "Num_ssssC_Atoms",
+    "Num_Substituted_BenzeneC",
+    "Percentage_C_Atoms",
+    "Num_Terminal_PrimaryC",
+    "Num_Oxygen_Atoms",
+    "Freq_CN_At_Dist3",
+    "Sum_dssC_EStates",
+    "Weighted_HyperWiener_Index_Burden_Matrix",
+    "Lopping_Centric_Index",
+    "Laplace_Spectral_Moment6",
+    "Freq_CO_At_Dist3",
+    "Mean_Sanderson_Electronegativity",
+    "Mean_Ionization_Potential",
+    "Num_N_Hydrazine",
+    "Num_Aromatic_Nitro_Groups",
+    "Num_CRX3",
+    "Weighted_Normalized_SpectralPositiveSum_Burden_Matrix",
+    "Num_Circuits",
+    "Adjacency_LeadingEigenvalue",
+    "Intrinsic_State_Pseudoconnectivity",
+    "Sum_dO_EStates",
+    "Laplace_MoharIndex2",
+    "Num_RingTertiaryC",
+    "Freq_CN_At_Dist2",
+    "Num_HBond_Donors_Atoms",
+    "Weighted_LeadingEigenvalue_Burden_Matrix",
+    "Intrinsic_State_Pseudoconnectivity_SAvg",
+    "Num_Nitrogen_Atoms",
+    "Weighted_SpectralMoment6_Burden_Matrix",
+    "Num_Esters",
+    "Num_Halogen_Atoms"
+  ],
+  "shift_description": "TabArena (IID, single random split)",
+  "n_train": 843,
+  "n_test": 211,
+  "n_features": 41,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "source": "tabarena",
+    "openml_study_id": 457,
+    "openml_dataset_id": 46952,
+    "openml_task_id": 363696,
+    "openml_dataset_name": "qsar-biodeg",
+    "test_size": 0.2,
+    "n_total": 1054,
+    "split_protocol": "Single IID split with seed 42. Classification targets were stratified when each class had at least two samples. The TabArena official protocol uses repeated CV (10x3 for n<2500, 3x3 otherwise).",
+    "n_repeats": 10,
+    "n_folds": 3,
+    "n_samples": 1,
+    "data_parquet": "data.parquet",
+    "folds_npz": "folds.npz",
+    "fold_protocol": "OpenML official CV: 10 repeats x 3 folds x 1 sample = 30 splits (stratified for classification)"
+  },
+  "n_total_folds": 30,
+  "fold_specs": [
+    {
+      "fold_idx": 0,
+      "repeat": 0,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 1,
+      "repeat": 0,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 2,
+      "repeat": 0,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 3,
+      "repeat": 1,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 4,
+      "repeat": 1,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 5,
+      "repeat": 1,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 6,
+      "repeat": 2,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 7,
+      "repeat": 2,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 8,
+      "repeat": 2,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 9,
+      "repeat": 3,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 10,
+      "repeat": 3,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 11,
+      "repeat": 3,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 12,
+      "repeat": 4,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 13,
+      "repeat": 4,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 14,
+      "repeat": 4,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 15,
+      "repeat": 5,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 16,
+      "repeat": 5,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 17,
+      "repeat": 5,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 18,
+      "repeat": 6,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 19,
+      "repeat": 6,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 20,
+      "repeat": 6,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 21,
+      "repeat": 7,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 22,
+      "repeat": 7,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 23,
+      "repeat": 7,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 24,
+      "repeat": 8,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 25,
+      "repeat": 8,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 26,
+      "repeat": 8,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 27,
+      "repeat": 9,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 702,
+      "test_size": 352
+    },
+    {
+      "fold_idx": 28,
+      "repeat": 9,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    },
+    {
+      "fold_idx": 29,
+      "repeat": 9,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 703,
+      "test_size": 351
+    }
+  ]
+}

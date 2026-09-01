@@ -1,0 +1,48 @@
+{
+  "name": "lending_club",
+  "task_type": "classification",
+  "cat_features": [
+    "term",
+    "grade",
+    "sub_grade",
+    "emp_length",
+    "home_ownership",
+    "verification_status",
+    "purpose",
+    "addr_state",
+    "initial_list_status"
+  ],
+  "num_features": [
+    "loan_amnt",
+    "int_rate",
+    "installment",
+    "annual_inc",
+    "dti",
+    "open_acc",
+    "pub_rec",
+    "revol_bal",
+    "revol_util",
+    "total_acc",
+    "mort_acc",
+    "pub_rec_bankruptcies"
+  ],
+  "shift_description": "temporal: 2007 through 2014 for training and 2015 through 2018 for testing",
+  "n_train": 50000,
+  "n_test": 50000,
+  "n_features": 21,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "source": "lending_club",
+    "task": "loan_default_prediction",
+    "n_classes": 2,
+    "train_years": [
+      2007,
+      2014
+    ],
+    "test_years": [
+      2015,
+      2018
+    ]
+  }
+}

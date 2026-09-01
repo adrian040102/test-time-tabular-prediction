@@ -1,0 +1,353 @@
+{
+  "name": "superconductivity",
+  "task_type": "regression",
+  "cat_features": [],
+  "num_features": [
+    "number_of_elements",
+    "mean_atomic_mass",
+    "wtd_mean_atomic_mass",
+    "gmean_atomic_mass",
+    "wtd_gmean_atomic_mass",
+    "entropy_atomic_mass",
+    "wtd_entropy_atomic_mass",
+    "range_atomic_mass",
+    "wtd_range_atomic_mass",
+    "std_atomic_mass",
+    "wtd_std_atomic_mass",
+    "mean_fie",
+    "wtd_mean_fie",
+    "gmean_fie",
+    "wtd_gmean_fie",
+    "entropy_fie",
+    "wtd_entropy_fie",
+    "range_fie",
+    "wtd_range_fie",
+    "std_fie",
+    "wtd_std_fie",
+    "mean_atomic_radius",
+    "wtd_mean_atomic_radius",
+    "gmean_atomic_radius",
+    "wtd_gmean_atomic_radius",
+    "entropy_atomic_radius",
+    "wtd_entropy_atomic_radius",
+    "range_atomic_radius",
+    "wtd_range_atomic_radius",
+    "std_atomic_radius",
+    "wtd_std_atomic_radius",
+    "mean_Density",
+    "wtd_mean_Density",
+    "gmean_Density",
+    "wtd_gmean_Density",
+    "entropy_Density",
+    "wtd_entropy_Density",
+    "range_Density",
+    "wtd_range_Density",
+    "std_Density",
+    "wtd_std_Density",
+    "mean_ElectronAffinity",
+    "wtd_mean_ElectronAffinity",
+    "gmean_ElectronAffinity",
+    "wtd_gmean_ElectronAffinity",
+    "entropy_ElectronAffinity",
+    "wtd_entropy_ElectronAffinity",
+    "range_ElectronAffinity",
+    "wtd_range_ElectronAffinity",
+    "std_ElectronAffinity",
+    "wtd_std_ElectronAffinity",
+    "mean_FusionHeat",
+    "wtd_mean_FusionHeat",
+    "gmean_FusionHeat",
+    "wtd_gmean_FusionHeat",
+    "entropy_FusionHeat",
+    "wtd_entropy_FusionHeat",
+    "range_FusionHeat",
+    "wtd_range_FusionHeat",
+    "std_FusionHeat",
+    "wtd_std_FusionHeat",
+    "mean_ThermalConductivity",
+    "wtd_mean_ThermalConductivity",
+    "gmean_ThermalConductivity",
+    "wtd_gmean_ThermalConductivity",
+    "entropy_ThermalConductivity",
+    "wtd_entropy_ThermalConductivity",
+    "range_ThermalConductivity",
+    "wtd_range_ThermalConductivity",
+    "std_ThermalConductivity",
+    "wtd_std_ThermalConductivity",
+    "mean_Valence",
+    "wtd_mean_Valence",
+    "gmean_Valence",
+    "wtd_gmean_Valence",
+    "entropy_Valence",
+    "wtd_entropy_Valence",
+    "range_Valence",
+    "wtd_range_Valence",
+    "std_Valence",
+    "wtd_std_Valence"
+  ],
+  "shift_description": "TabArena (IID, single random split)",
+  "n_train": 17010,
+  "n_test": 4253,
+  "n_features": 81,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "source": "tabarena",
+    "openml_study_id": 457,
+    "openml_dataset_id": 46961,
+    "openml_task_id": 363705,
+    "openml_dataset_name": "superconductivity",
+    "test_size": 0.2,
+    "n_total": 21263,
+    "split_protocol": "Single IID split with seed 42. Classification targets were stratified when each class had at least two samples. The TabArena official protocol uses repeated CV (10x3 for n<2500, 3x3 otherwise).",
+    "n_repeats": 10,
+    "n_folds": 3,
+    "n_samples": 1,
+    "data_parquet": "data.parquet",
+    "folds_npz": "folds.npz",
+    "fold_protocol": "OpenML official CV: 10 repeats x 3 folds x 1 sample = 30 splits (stratified for classification)"
+  },
+  "n_total_folds": 30,
+  "fold_specs": [
+    {
+      "fold_idx": 0,
+      "repeat": 0,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 1,
+      "repeat": 0,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 2,
+      "repeat": 0,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 3,
+      "repeat": 1,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 4,
+      "repeat": 1,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 5,
+      "repeat": 1,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 6,
+      "repeat": 2,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 7,
+      "repeat": 2,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 8,
+      "repeat": 2,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 9,
+      "repeat": 3,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 10,
+      "repeat": 3,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 11,
+      "repeat": 3,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 12,
+      "repeat": 4,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 13,
+      "repeat": 4,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 14,
+      "repeat": 4,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 15,
+      "repeat": 5,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 16,
+      "repeat": 5,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 17,
+      "repeat": 5,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 18,
+      "repeat": 6,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 19,
+      "repeat": 6,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 20,
+      "repeat": 6,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 21,
+      "repeat": 7,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 22,
+      "repeat": 7,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 23,
+      "repeat": 7,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 24,
+      "repeat": 8,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 25,
+      "repeat": 8,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 26,
+      "repeat": 8,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    },
+    {
+      "fold_idx": 27,
+      "repeat": 9,
+      "fold": 0,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 28,
+      "repeat": 9,
+      "fold": 1,
+      "sample": 0,
+      "train_size": 14175,
+      "test_size": 7088
+    },
+    {
+      "fold_idx": 29,
+      "repeat": 9,
+      "fold": 2,
+      "sample": 0,
+      "train_size": 14176,
+      "test_size": 7087
+    }
+  ]
+}

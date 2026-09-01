@@ -1,0 +1,31 @@
+{
+  "name": "synthetic_partial_shift",
+  "task_type": "classification",
+  "cat_features": [
+    "OCCP",
+    "MAR",
+    "ST"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL",
+    "WKHP",
+    "CAPITALGAIN",
+    "CAPITALLOSS"
+  ],
+  "shift_description": "synthetic partial covariate shift (strength=1.0, shifted features: ['AGEP', 'OCCP', 'SCHL'])",
+  "n_train": 50000,
+  "n_test": 50000,
+  "n_features": 8,
+  "seed_used": 42,
+  "extra": {
+    "shift_strength": 1.0,
+    "shift_mode": "partial",
+    "seed": 42,
+    "shifted_features": [
+      "AGEP",
+      "OCCP",
+      "SCHL"
+    ]
+  }
+}

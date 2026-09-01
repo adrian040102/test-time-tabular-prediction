@@ -1,0 +1,7 @@
+name: folktables_income
+loader: src.data.folktables:load_folktables_income
+params:
+  train_year: "2014"
+  test_year: "2018"
+  train_states: ["CA", "TX", "NY", "FL", "IL"]
+  max_samples: 50000

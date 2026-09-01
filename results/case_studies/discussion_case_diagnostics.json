@@ -1,0 +1,98 @@
+{
+  "scope": "Explanatory diagnostics used in the dataset discussion",
+  "test_labels_used_only_for_diagnostic_evaluation": true,
+  "neighbor_consensus_dataset_size": {
+    "model": "bag8",
+    "n_configurations": 6,
+    "n_datasets": 76,
+    "rho_min": 0.5168969617487569,
+    "rho_max": 0.59502698421873,
+    "largest_blockwise_q": 0.0008305935160614,
+    "all_blockwise_q_below_0_05": true
+  },
+  "mic_groupby": [
+    {
+      "model": "bag8",
+      "lift_pct_from_means": 15.728216516485702,
+      "lift_accuracy_pct": 2.971813725490174,
+      "lift_log_loss_pct": 5.480930948760694
+    },
+    {
+      "model": "tabicl",
+      "lift_pct_from_means": -17.139159945390574,
+      "lift_accuracy_pct": -2.1164021164021154,
+      "lift_log_loss_pct": -5.35453388945255
+    }
+  ],
+  "gas_sensor_reweighting": {
+    "n_configurations": 9,
+    "n_positive": 8,
+    "n_negative": 1,
+    "median_lift_pct": 3.826419538063738
+  },
+  "gas_sensor_class_counts": {
+    "train": {
+      "0": 1225,
+      "1": 1579,
+      "2": 541,
+      "3": 484,
+      "4": 1558,
+      "5": 546
+    },
+    "test": {
+      "0": 1340,
+      "1": 1347,
+      "2": 1100,
+      "3": 1452,
+      "4": 1451,
+      "5": 1287
+    }
+  },
+  "gas_sensor_pseudo_labels": [
+    {
+      "method_key": "pseudo_label_lgbm_conf95_iter3",
+      "n_selected": 7751,
+      "n_test": 7977,
+      "n_incorrect": 2729,
+      "pseudo_accuracy": 0.647916397884144,
+      "mean_reported_confidence": 0.994623854629138,
+      "final_results": [
+        {
+          "model": "bag8",
+          "baseline_auc": 0.8756216405353995,
+          "method_auc": 0.8483030097564618
+        },
+        {
+          "model": "tabicl",
+          "baseline_auc": 0.9711257964739634,
+          "method_auc": 0.8584288859235373
+        }
+      ]
+    },
+    {
+      "method_key": "pseudo_label_v2_cal_iso_wfixed_conf90",
+      "n_selected": 2926,
+      "n_test": 7977,
+      "n_incorrect": 550,
+      "pseudo_accuracy": 0.8120300751879699,
+      "mean_reported_confidence": 0.950055779184224,
+      "final_results": [
+        {
+          "model": "bag8",
+          "baseline_auc": 0.8756216405353995,
+          "method_auc": 0.8480056750247043
+        },
+        {
+          "model": "tabicl",
+          "baseline_auc": 0.9711257964739634,
+          "method_auc": 0.8847449368502064
+        },
+        {
+          "model": "tabpfn",
+          "baseline_auc": 0.9543932762362064,
+          "method_auc": 0.8643467093504578
+        }
+      ]
+    }
+  ]
+}

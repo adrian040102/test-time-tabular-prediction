@@ -1,0 +1,54 @@
+key,label,group,availability_stage,definition,core_heatmap
+log10_n_train,log10(train rows),size,features_only,Base-10 log of training rows.,True
+log10_n_test,log10(test rows),size,features_only,Base-10 log of test rows.,True
+log10_n_total,log10(total rows),size,features_only,Base-10 log of train plus test rows.,True
+log10_test_train_ratio,log10(test/train),size,features_only,Base-10 log of the test-to-train row ratio.,True
+log10_train_rows_per_feature,log10(train rows/feature),size,features_only,Base-10 log of training rows per input feature.,True
+n_features,feature count,structure,features_only,Total number of input features.,True
+n_cat,categorical count,structure,features_only,Number of declared categorical features.,True
+n_num,numeric count,structure,features_only,Number of declared numerical features.,False
+cat_frac,categorical fraction,structure,features_only,Categorical feature count divided by total feature count.,True
+train_missing_frac_sampled,train missing fraction,quality,features_only,"Mean missing-cell fraction in a deterministic sample of at most 50,000 training rows.",True
+test_missing_frac_sampled,test missing fraction,quality,features_only,"Mean missing-cell fraction in a deterministic sample of at most 50,000 test rows.",False
+abs_missing_frac_delta_sampled,|missing-rate change|,quality,features_only,Absolute train-test difference in sampled missing-cell fraction.,True
+constant_feature_frac_sampled,constant-feature fraction,quality,features_only,Fraction of features with at most one sampled non-missing training value.,True
+median_cat_cardinality_sampled,median categorical cardinality,structure,features_only,Median sampled training cardinality across categorical features.,True
+high_cardinality_cat_frac_sampled,high-cardinality cat fraction,structure,features_only,Fraction of categorical features with more than 50 sampled training levels.,False
+mean_unseen_test_category_frac_sampled,unseen test-category fraction,shift,features_only,Mean sampled test-row share whose category was not observed in sampled training data.,True
+median_abs_numeric_skew_sampled,median |numeric skew|,structure,features_only,Median absolute skewness over at most 200 sampled numerical features.,True
+mean_abs_numeric_corr_sampled,mean |numeric correlation|,structure,features_only,"Mean absolute off-diagonal Pearson correlation over at most 100 numerical features and 5,000 rows.",True
+is_regression,regression indicator,target,train_labels,One for regression tasks and zero for classification tasks.,True
+is_multiclass,multiclass indicator,target,train_labels,One for classification tasks with more than two training classes.,True
+n_classes,class count,target,train_labels,Number of training target classes. Missing for regression.,True
+minority_class_share,minority-class share,target,train_labels,Smallest training class proportion. Missing for regression.,True
+log10_class_imbalance_ratio,log10(class imbalance),target,train_labels,Base-10 log of largest-to-smallest training class proportion. Missing for regression.,False
+normalized_target_entropy,normalized target entropy,target,train_labels,Training class entropy divided by log(number of classes). Missing for regression.,True
+effective_n_classes,effective class count,target,train_labels,Exponentiated training class entropy. Missing for regression.,False
+regression_target_std,regression target SD,target,train_labels,Training-target standard deviation. Missing for classification.,False
+regression_target_iqr_over_std,regression target IQR/SD,target,train_labels,Training-target IQR divided by standard deviation. Missing for classification.,False
+regression_target_abs_skew,regression target |skew|,target,train_labels,Absolute training-target skewness. Missing for classification.,True
+regression_target_excess_kurtosis,regression target kurtosis,target,train_labels,Training-target excess kurtosis. Missing for classification.,False
+regression_target_outlier_frac,regression target outlier fraction,target,train_labels,Training-target share outside the 1.5-IQR Tukey fences. Missing for classification.,False
+domain_auc,domain AUC,shift,features_only,Cross-validated mixed-type train-versus-test domain ROC AUC.,True
+mean_ks,mean numeric KS,shift,features_only,Mean train-test KS statistic across numerical features.,True
+p90_ks_sampled,90th-percentile numeric KS,shift,features_only,90th percentile of sampled per-feature numerical KS statistics.,True
+max_ks_sampled,maximum numeric KS,shift,features_only,Maximum sampled per-feature numerical KS statistic.,False
+median_std_wasserstein_sampled,median standardized Wasserstein,shift,features_only,Median sampled numerical Wasserstein distance divided by training SD.,False
+median_abs_log_std_ratio_sampled,median |log SD ratio|,shift,features_only,Median absolute log(test SD / train SD) across sampled numerical features.,False
+mean_js,mean categorical JS,shift,features_only,Mean train-test Jensen-Shannon divergence across categorical features.,True
+p90_js_sampled,90th-percentile categorical JS,shift,features_only,90th percentile of sampled per-feature categorical Jensen-Shannon divergences.,True
+max_js_sampled,maximum categorical JS,shift,features_only,Maximum sampled per-feature categorical Jensen-Shannon divergence.,False
+mean_cat_total_variation_sampled,mean categorical TV,shift,features_only,Mean sampled categorical total-variation distance.,False
+frac_sig_num,significant numeric fraction,shift,features_only,Bonferroni-significant fraction of numerical features.,True
+frac_sig_cat,significant categorical fraction,shift,features_only,Bonferroni-significant fraction of categorical features.,True
+overall_shift_score,overall shift score,shift,features_only,Existing composite numerical/categorical/domain shift score.,True
+is_iid_control,IID-control indicator,design,features_only,"One for TabArena IID, Tschalzev IID or the zero-shift synthetic control.",True
+is_temporal_design,temporal-design indicator,design,features_only,One when the documented split is temporal or a temporal gap.,False
+is_synthetic,synthetic indicator,design,features_only,One for synthetic datasets.,True
+baseline_normalized_error,baseline normalized error,baseline,post_evaluation,Model-specific baseline error: 1-AUC for classification and RMSE/training-target-SD for regression.,False
+baseline_difficulty_pctile,baseline difficulty percentile,baseline,post_evaluation,Within-model and task-type percentile rank of baseline normalized error. Larger values indicate greater difficulty.,True
+baseline_fold_sd_normalized,baseline fold SD,baseline,post_evaluation,"Fold SD of baseline error, divided by training-target SD for regression.",True
+baseline_auc,baseline ROC AUC,baseline,post_evaluation,Model-specific inductive-baseline ROC AUC. Classification only.,False
+baseline_nrmse,baseline normalized RMSE,baseline,post_evaluation,Model-specific inductive-baseline RMSE divided by training-target SD. Regression only.,False
+target_shift_score_posthoc,target-shift score (post-hoc),target_shift,post_evaluation,Classification target total variation or regression target KS. It uses test labels and is explanatory only.,False
+regression_target_mean_delta_std_posthoc,regression target mean change/SD,target_shift,post_evaluation,Absolute train-test target-mean change divided by training-target SD. This applies only to regression and uses test labels.,False

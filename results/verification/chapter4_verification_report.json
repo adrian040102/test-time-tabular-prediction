@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "inputs": {
+      "mismatches": [],
+      "rows": 26
+    },
+    "resampling_calls": [],
+    "supporting_tables": {
+      "fold_rows_marked_near_perfect": 0,
+      "fold_rows_with_fewer_than_two_folds": 0,
+      "rank_coverage_mismatches": 0,
+      "rank_denominator_overflows": 0,
+      "shift_band_status_mismatches": 0
+    },
+    "joint_train_only_versions": {
+      "identity_mismatches": 0,
+      "numeric_mismatches": 0,
+      "reconstructed_dataset_rows": 1942,
+      "joint_train_only_pairs_present": 10,
+      "summary_mismatches": []
+    },
+    "variant_effects": {
+      "effect_rows": 26401,
+      "formula_mismatches": 0,
+      "identity_mismatches": 0,
+      "near_perfect_mask_mismatches": 0,
+      "raw_rows": 26401
+    },
+    "variant_summary": {
+      "bh_mismatches": 0,
+      "harmful_criteria_mismatches": 0,
+      "never_exceeds_rows": 1,
+      "nominal_positive_rows": 11,
+      "reliability_criteria_mismatches": 0,
+      "rows": 414,
+      "statistic_mismatches": [],
+      "strict_harmful_rows": 199,
+      "strict_reliable_rows": 0
+    }
+  },
+  "failures": [],
+  "status": "PASS"
+}

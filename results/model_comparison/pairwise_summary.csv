@@ -1,0 +1,4 @@
+comparison,sources,first_model_lower,second_model_lower,ties,mean_difference_pct_points,median_difference_pct_points,minimum_difference_pct_points,maximum_difference_pct_points,differences_below_minus_10
+TabICLv2 minus LightGBM,31,29,2,0,-3.216494609923068,-2.2244058133789153,-20.040917902826102,0.7433287099240302,2
+TabICLv2 minus TabPFNv2,31,27,4,0,-3.3793668117598448,-1.9636428636604746,-19.268323882674263,5.864300544375421,3
+TabPFNv2 minus LightGBM,31,15,16,0,0.16287220183677656,0.0012837785595301576,-13.49213977708986,16.016787991814827,1

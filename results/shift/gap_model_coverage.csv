@@ -1,0 +1,4 @@
+model,gap_windows,independent_source_datasets,source_dataset_window_counts,reliability_eligible,reason
+bag8,10,4,tabred_delivery_eta:3;tabred_homesite:2;tabred_sberbank:2;tabred_weather:3,False,only three or four independent source datasets
+tabicl,8,3,tabred_delivery_eta:3;tabred_homesite:2;tabred_weather:3,False,only three or four independent source datasets
+tabpfn,10,4,tabred_delivery_eta:3;tabred_homesite:2;tabred_sberbank:2;tabred_weather:3,False,only three or four independent source datasets

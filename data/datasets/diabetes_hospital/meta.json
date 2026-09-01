@@ -1,0 +1,55 @@
+{
+  "name": "diabetes_hospital",
+  "task_type": "classification",
+  "cat_features": [
+    "race",
+    "gender",
+    "age",
+    "admission_type_id",
+    "discharge_disposition_id",
+    "payer_code",
+    "medical_specialty",
+    "diag_1_group",
+    "diag_2_group",
+    "diag_3_group",
+    "max_glu_serum",
+    "A1Cresult",
+    "change",
+    "diabetesMed",
+    "metformin",
+    "repaglinide",
+    "glimepiride",
+    "glipizide",
+    "glyburide",
+    "pioglitazone",
+    "rosiglitazone",
+    "insulin"
+  ],
+  "num_features": [
+    "time_in_hospital",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications",
+    "number_outpatient",
+    "number_emergency",
+    "number_inpatient",
+    "number_diagnoses"
+  ],
+  "shift_description": "institutional: emergency admissions for training and non-emergency admissions for testing",
+  "n_train": 50000,
+  "n_test": 10157,
+  "n_features": 30,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "source": "uci",
+    "task": "diabetes_30day_readmission",
+    "n_classes": 2,
+    "train_regions": [
+      "emergency"
+    ],
+    "test_regions": [
+      "non_emergency"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+model,source_dataset,n_exact_variants,higher_shift_more_helpful,higher_shift_more_harmful,no_change,strictly_increasing,strictly_decreasing,nonmonotonic,median_high_minus_low_lift_pct_descriptive,inference_status
+bag8,tabred_delivery_eta,125,40,73,12,15,31,67,-0.20814068920408998,descriptive_correlated_variants_no_ci
+bag8,tabred_homesite,134,76,53,5,0,0,0,0.5967534412416691,descriptive_correlated_variants_no_ci
+bag8,tabred_sberbank,124,58,60,6,0,0,0,0.0,descriptive_correlated_variants_no_ci
+bag8,tabred_weather,125,49,54,22,16,20,66,0.0,descriptive_correlated_variants_no_ci
+tabicl,tabred_delivery_eta,113,34,79,0,13,15,82,-0.4390034419812863,descriptive_correlated_variants_no_ci
+tabicl,tabred_homesite,115,34,81,0,0,0,0,-11.29750416206756,descriptive_correlated_variants_no_ci
+tabicl,tabred_weather,114,29,81,4,4,18,83,-0.13737873390982516,descriptive_correlated_variants_no_ci
+tabpfn,tabred_delivery_eta,95,18,77,0,8,9,78,-0.1462602303350386,descriptive_correlated_variants_no_ci
+tabpfn,tabred_homesite,91,16,75,0,0,0,0,-8.057803768372217,descriptive_correlated_variants_no_ci
+tabpfn,tabred_sberbank,87,72,15,0,0,0,0,3.7425558226162856,descriptive_correlated_variants_no_ci
+tabpfn,tabred_weather,96,31,48,17,4,11,64,-0.0018236556900780437,descriptive_correlated_variants_no_ci

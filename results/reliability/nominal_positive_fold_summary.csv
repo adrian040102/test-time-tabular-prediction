@@ -1,0 +1,12 @@
+model,method_key,multi_fold_datasets,multi_fold_with_any_positive,all_folds_positive_given_any_positive,mixed_sign_given_any_positive,limitation
+bag8,freq_enc_train_only,45,25,12,13,single-split datasets are not covered
+bag8,joint_freq_combined,45,24,13,11,single-split datasets are not covered
+bag8,joint_freq_combined__sel_combined_intersection,45,33,11,19,single-split datasets are not covered
+bag8,joint_freq_separate,45,23,13,10,single-split datasets are not covered
+bag8,joint_freq_separate__sel_combined_intersection,45,34,9,22,single-split datasets are not covered
+tabpfn,freq_ratio_log__sel_combined_intersection,27,25,5,19,single-split datasets are not covered
+tabpfn,freq_ratio_log__sel_combined_union,27,25,10,15,single-split datasets are not covered
+tabpfn,groupby_shift_cohen_d__sel_combined_intersection,27,26,4,21,single-split datasets are not covered
+tabpfn,joint_freq_combined__sel_combined_intersection,27,25,4,20,single-split datasets are not covered
+tabpfn,joint_freq_separate__sel_combined_union,27,23,8,15,single-split datasets are not covered
+tabpfn,target_enc_ratio__sel_combined_intersection,27,24,5,18,single-split datasets are not covered

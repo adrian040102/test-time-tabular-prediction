@@ -1,0 +1,7 @@
+# Institutional shift: train on emergency admissions, test on non-emergency
+name: diabetes_hospital
+loader: src.data.diabetes_hospital:load_diabetes_hospital
+params:
+  train_regions: ["emergency"]
+  test_regions: ["non_emergency"]
+  max_samples: 50000

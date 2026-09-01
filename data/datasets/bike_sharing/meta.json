@@ -1,0 +1,31 @@
+{
+  "name": "bike_sharing",
+  "task_type": "regression",
+  "cat_features": [
+    "season",
+    "mnth",
+    "hr",
+    "holiday",
+    "weekday",
+    "workingday",
+    "weathersit"
+  ],
+  "num_features": [
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed"
+  ],
+  "shift_description": "temporal: 2011 for training and 2012 for testing",
+  "n_train": 8645,
+  "n_test": 8734,
+  "n_features": 11,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "source": "uci",
+    "task": "bike_sharing_hourly",
+    "train_year": 0,
+    "test_year": 1
+  }
+}

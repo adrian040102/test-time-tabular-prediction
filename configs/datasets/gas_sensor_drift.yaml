@@ -1,0 +1,6 @@
+name: gas_sensor_drift
+loader: src.data.gas_sensor_drift:load_gas_sensor_drift
+params:
+  train_batches: [1, 2, 3, 4, 5, 6]
+  test_batches: [7, 8, 9, 10]
+  max_samples: null

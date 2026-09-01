@@ -1,0 +1,45 @@
+{
+  "name": "brfss_diabetes",
+  "task_type": "classification",
+  "cat_features": [
+    "_SEX",
+    "_AGEG5YR",
+    "_RACE1",
+    "_EDUCAG",
+    "_INCOMG1",
+    "_BMI5CAT",
+    "_SMOKER3",
+    "_RFBING6",
+    "EXERANY2",
+    "GENHLTH",
+    "MARITAL"
+  ],
+  "num_features": [
+    "PHYSHLTH",
+    "MENTHLTH",
+    "POORHLTH",
+    "_BMI5",
+    "SLEPTIM1",
+    "ALCDAY4"
+  ],
+  "shift_description": "geographic: South and Midwest regions for training and Northeast and West regions for testing",
+  "n_train": 233073,
+  "n_test": 188062,
+  "n_features": 17,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "source": "cdc_brfss",
+    "year": 2022,
+    "task": "diabetes",
+    "n_classes": 2,
+    "train_regions": [
+      "south",
+      "midwest"
+    ],
+    "test_regions": [
+      "northeast",
+      "west"
+    ]
+  }
+}

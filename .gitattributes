@@ -1,0 +1,21 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+*.lock text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+*.tex text eol=lf
+
+*.npz -text
+*.parquet -text
+*.pdf -text
+*.png -text

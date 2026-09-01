@@ -1,0 +1,43 @@
+{
+  "name": "folktables_income",
+  "task_type": "classification",
+  "cat_features": [
+    "COW",
+    "MAR",
+    "OCCP",
+    "POBP",
+    "RELP",
+    "RAC1P",
+    "SEX"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL",
+    "WKHP"
+  ],
+  "shift_description": "temporal: 2014 for training and 2018 for testing",
+  "n_train": 568707,
+  "n_test": 600551,
+  "n_features": 10,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "task": "income",
+    "train_year": "2014",
+    "test_year": "2018",
+    "train_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ],
+    "test_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ]
+  }
+}

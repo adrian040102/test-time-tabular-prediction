@@ -1,0 +1,5 @@
+name: tschalzev_mbgm
+loader: src.data.openml_datasets:load_tschalzev_dataset
+params:
+  short_name: mbgm
+  max_samples: 50000

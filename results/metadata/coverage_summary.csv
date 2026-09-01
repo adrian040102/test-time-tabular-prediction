@@ -1,0 +1,4 @@
+model_id,configured_evaluations,not_applicable,intended_evaluations,usable_evaluations,incomplete_evaluations,datasets,approaches_including_baseline,usable_pct_of_intended
+bag8,27600,36,27564,27498,66,92,145,99.760557
+tabicl,17537,0,17537,17478,59,55,136,99.663568
+tabpfn,15007,754,14253,14253,0,50,136,100.000000

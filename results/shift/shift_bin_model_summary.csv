@@ -1,0 +1,13 @@
+model,shift_bin,roster_band_datasets,minimum_effective_n,maximum_effective_n,band_status_at_minimum_n,n_variants,median_variant_mean_lift_pct,median_variant_win_rate,variants_positive_mean_ci,variants_reliable_positive_strict
+bag8,DAUC < 0.55,57,38,51,reliability_eligible_n_ge_10,134,-1.7396430864608652,0.3333333333333333,5,0
+bag8,0.55 <= DAUC < 0.75,12,5,12,descriptive_only_n_lt_6,134,-0.2946144106975492,0.17424242424242425,0,0
+bag8,0.75 <= DAUC < 0.95,8,3,8,descriptive_only_n_lt_6,134,-0.45973464146616333,0.3333333333333333,2,0
+bag8,DAUC >= 0.95,15,5,15,descriptive_only_n_lt_6,134,-2.1659913717846404,0.4,0,0
+tabicl,DAUC < 0.55,39,25,33,reliability_eligible_n_ge_10,125,-2.3067277623903593,0.21212121212121213,0,0
+tabicl,0.55 <= DAUC < 0.75,5,4,5,descriptive_only_n_lt_6,125,-0.4145546521860296,0.2,0,0
+tabicl,0.75 <= DAUC < 0.95,3,2,3,descriptive_only_n_lt_6,125,-0.37736233412756065,0.0,5,0
+tabicl,DAUC >= 0.95,8,1,8,descriptive_only_n_lt_6,125,-2.8884952936054527,0.25,0,0
+tabpfn,DAUC < 0.55,33,17,28,reliability_eligible_n_ge_10,125,-0.7805327777586866,0.35714285714285715,1,0
+tabpfn,0.55 <= DAUC < 0.75,4,1,4,descriptive_only_n_lt_6,119,-0.42503248283859585,0.0,1,0
+tabpfn,0.75 <= DAUC < 0.95,3,2,3,descriptive_only_n_lt_6,105,-0.5344083453336586,0.3333333333333333,3,0
+tabpfn,DAUC >= 0.95,10,1,10,descriptive_only_n_lt_6,109,-0.2260116641796983,0.5,3,0

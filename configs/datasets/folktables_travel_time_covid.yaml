@@ -1,0 +1,8 @@
+# Commute-time shift from the pre-COVID period to the post-COVID period
+name: folktables_travel_time_covid
+loader: src.data.folktables:load_folktables_travel_time
+params:
+  train_year: "2019"
+  test_year: "2022"
+  train_states: ["CA", "TX", "NY", "FL", "IL"]
+  max_samples: 50000

@@ -1,0 +1,49 @@
+{
+  "name": "folktables_travel_time",
+  "task_type": "classification",
+  "cat_features": [
+    "MAR",
+    "SEX",
+    "DIS",
+    "ESP",
+    "MIG",
+    "RELP",
+    "RAC1P",
+    "PUMA",
+    "CIT",
+    "OCCP",
+    "POWPUMA",
+    "POVPIP",
+    "ST",
+    "JWTR"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL"
+  ],
+  "shift_description": "temporal: 2014 for training and 2018 for testing",
+  "n_train": 498060,
+  "n_test": 532427,
+  "n_features": 16,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "task": "travel_time",
+    "train_year": "2014",
+    "test_year": "2018",
+    "train_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ],
+    "test_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ]
+  }
+}

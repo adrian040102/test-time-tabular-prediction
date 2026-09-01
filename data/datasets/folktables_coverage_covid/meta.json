@@ -1,0 +1,52 @@
+{
+  "name": "folktables_coverage_covid",
+  "task_type": "classification",
+  "cat_features": [
+    "MAR",
+    "SEX",
+    "DIS",
+    "ESP",
+    "CIT",
+    "MIG",
+    "MIL",
+    "ANC",
+    "NATIVITY",
+    "DEAR",
+    "DEYE",
+    "DREM",
+    "RAC1P",
+    "FER",
+    "ESR",
+    "ST"
+  ],
+  "num_features": [
+    "AGEP",
+    "SCHL",
+    "PINCP"
+  ],
+  "shift_description": "temporal: 2019 for training and 2022 for testing",
+  "n_train": 401596,
+  "n_test": 396142,
+  "n_features": 19,
+  "seed_used": 42,
+  "max_samples_used": null,
+  "extra": {
+    "task": "coverage",
+    "train_year": "2019",
+    "test_year": "2022",
+    "train_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ],
+    "test_states": [
+      "CA",
+      "TX",
+      "NY",
+      "FL",
+      "IL"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "input_dataset_versions": 92,
+  "main_dataset_count": 82,
+  "gap_variant_count": 10,
+  "models": [
+    "bag8",
+    "tabicl",
+    "tabpfn"
+  ],
+  "method_variants_by_model": {
+    "bag8": 144,
+    "tabicl": 135,
+    "tabpfn": 135
+  },
+  "dataset_versions_by_model": {
+    "bag8": 92,
+    "tabicl": 55,
+    "tabpfn": 50
+  },
+  "main_datasets_by_model": {
+    "bag8": 82,
+    "tabicl": 47,
+    "tabpfn": 40
+  },
+  "extra_trait_errors": 0,
+  "primary_correlations_computed": 20645,
+  "primary_correlations_reportable_n20": 18885,
+  "primary_bh05_block_count": 317,
+  "test_time_premium_bh05_block_count": 0,
+  "rho_bounds_valid": true,
+  "p_bounds_valid": true,
+  "q_bounds_valid": true,
+  "near_perfect_primary_mask_rows": 2345,
+  "minimum_correlation_n": 8,
+  "minimum_report_n": 20
+}

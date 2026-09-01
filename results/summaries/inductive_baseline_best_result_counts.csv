@@ -1,0 +1,4 @@
+model,n_datasets,baseline_tied_for_best_datasets,baseline_unique_best_datasets,mean_baseline_normalized_rank,status
+bag8,92,0,0,0.3609624507765323,descriptive_best_of_many
+tabicl,55,1,0,0.2580982319094466,descriptive_best_of_many
+tabpfn,50,1,0,0.3656929607744951,descriptive_best_of_many

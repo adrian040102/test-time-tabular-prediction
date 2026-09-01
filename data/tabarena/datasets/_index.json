@@ -1,0 +1,529 @@
+{
+  "study_id": 457,
+  "downloaded_at": "2026-04-24T13:55:44",
+  "total_in_study": 51,
+  "attempted": 51,
+  "ok": 51,
+  "skipped": 0,
+  "failed": 0,
+  "datasets": [
+    {
+      "dataset_id": 46904,
+      "name": "airfoil_self_noise",
+      "status": "ok",
+      "folder": "airfoil_self_noise",
+      "n_train": 1202,
+      "n_test": 301,
+      "n_features": 5,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46905,
+      "name": "Amazon_employee_access",
+      "status": "ok",
+      "folder": "Amazon_employee_access",
+      "n_train": 26215,
+      "n_test": 6554,
+      "n_features": 9,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46906,
+      "name": "anneal",
+      "status": "ok",
+      "folder": "anneal",
+      "n_train": 718,
+      "n_test": 180,
+      "n_features": 38,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46907,
+      "name": "Another-Dataset-on-used-Fiat-500",
+      "status": "ok",
+      "folder": "Another-Dataset-on-used-Fiat-500",
+      "n_train": 1230,
+      "n_test": 308,
+      "n_features": 7,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46908,
+      "name": "APSFailure",
+      "status": "ok",
+      "folder": "APSFailure",
+      "n_train": 60800,
+      "n_test": 15200,
+      "n_features": 170,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46910,
+      "name": "bank-marketing",
+      "status": "ok",
+      "folder": "bank-marketing",
+      "n_train": 36168,
+      "n_test": 9043,
+      "n_features": 13,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46911,
+      "name": "Bank_Customer_Churn",
+      "status": "ok",
+      "folder": "Bank_Customer_Churn",
+      "n_train": 8000,
+      "n_test": 2000,
+      "n_features": 10,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46912,
+      "name": "Bioresponse",
+      "status": "ok",
+      "folder": "Bioresponse",
+      "n_train": 3000,
+      "n_test": 751,
+      "n_features": 1776,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46913,
+      "name": "blood-transfusion-service-center",
+      "status": "ok",
+      "folder": "blood-transfusion-service-center",
+      "n_train": 598,
+      "n_test": 150,
+      "n_features": 4,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46915,
+      "name": "churn",
+      "status": "ok",
+      "folder": "churn",
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_features": 19,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46916,
+      "name": "coil2000_insurance_policies",
+      "status": "ok",
+      "folder": "coil2000_insurance_policies",
+      "n_train": 7857,
+      "n_test": 1965,
+      "n_features": 85,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46917,
+      "name": "concrete_compressive_strength",
+      "status": "ok",
+      "folder": "concrete_compressive_strength",
+      "n_train": 824,
+      "n_test": 206,
+      "n_features": 8,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46918,
+      "name": "credit-g",
+      "status": "ok",
+      "folder": "credit-g",
+      "n_train": 800,
+      "n_test": 200,
+      "n_features": 20,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46919,
+      "name": "credit_card_clients_default",
+      "status": "ok",
+      "folder": "credit_card_clients_default",
+      "n_train": 24000,
+      "n_test": 6000,
+      "n_features": 23,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46920,
+      "name": "customer_satisfaction_in_airline",
+      "status": "ok",
+      "folder": "customer_satisfaction_in_airline",
+      "n_train": 103904,
+      "n_test": 25976,
+      "n_features": 21,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46921,
+      "name": "diabetes",
+      "status": "ok",
+      "folder": "diabetes",
+      "n_train": 614,
+      "n_test": 154,
+      "n_features": 8,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46922,
+      "name": "Diabetes130US",
+      "status": "ok",
+      "folder": "Diabetes130US",
+      "n_train": 57214,
+      "n_test": 14304,
+      "n_features": 47,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46923,
+      "name": "diamonds",
+      "status": "ok",
+      "folder": "diamonds",
+      "n_train": 43152,
+      "n_test": 10788,
+      "n_features": 9,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46924,
+      "name": "E-CommereShippingData",
+      "status": "ok",
+      "folder": "E-CommereShippingData",
+      "n_train": 8799,
+      "n_test": 2200,
+      "n_features": 10,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46927,
+      "name": "Fitness_Club",
+      "status": "ok",
+      "folder": "Fitness_Club",
+      "n_train": 1200,
+      "n_test": 300,
+      "n_features": 6,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46928,
+      "name": "Food_Delivery_Time",
+      "status": "ok",
+      "folder": "Food_Delivery_Time",
+      "n_train": 36360,
+      "n_test": 9091,
+      "n_features": 9,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46929,
+      "name": "GiveMeSomeCredit",
+      "status": "ok",
+      "folder": "GiveMeSomeCredit",
+      "n_train": 120000,
+      "n_test": 30000,
+      "n_features": 10,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46930,
+      "name": "hazelnut-spread-contaminant-detection",
+      "status": "ok",
+      "folder": "hazelnut-spread-contaminant-detection",
+      "n_train": 1920,
+      "n_test": 480,
+      "n_features": 30,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46931,
+      "name": "healthcare_insurance_expenses",
+      "status": "ok",
+      "folder": "healthcare_insurance_expenses",
+      "n_train": 1070,
+      "n_test": 268,
+      "n_features": 6,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46932,
+      "name": "heloc",
+      "status": "ok",
+      "folder": "heloc",
+      "n_train": 8367,
+      "n_test": 2092,
+      "n_features": 23,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46933,
+      "name": "hiva_agnostic",
+      "status": "ok",
+      "folder": "hiva_agnostic",
+      "n_train": 3076,
+      "n_test": 769,
+      "n_features": 1617,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46934,
+      "name": "houses",
+      "status": "ok",
+      "folder": "houses",
+      "n_train": 16512,
+      "n_test": 4128,
+      "n_features": 8,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46935,
+      "name": "HR_Analytics_Job_Change_of_Data_Scientists",
+      "status": "ok",
+      "folder": "HR_Analytics_Job_Change_of_Data_Scientists",
+      "n_train": 15326,
+      "n_test": 3832,
+      "n_features": 12,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46937,
+      "name": "in_vehicle_coupon_recommendation",
+      "status": "ok",
+      "folder": "in_vehicle_coupon_recommendation",
+      "n_train": 10147,
+      "n_test": 2537,
+      "n_features": 24,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46938,
+      "name": "Is-this-a-good-customer",
+      "status": "ok",
+      "folder": "Is-this-a-good-customer",
+      "n_train": 1378,
+      "n_test": 345,
+      "n_features": 13,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46939,
+      "name": "kddcup09_appetency",
+      "status": "ok",
+      "folder": "kddcup09_appetency",
+      "n_train": 40000,
+      "n_test": 10000,
+      "n_features": 212,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46940,
+      "name": "Marketing_Campaign",
+      "status": "ok",
+      "folder": "Marketing_Campaign",
+      "n_train": 1792,
+      "n_test": 448,
+      "n_features": 25,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46941,
+      "name": "maternal_health_risk",
+      "status": "ok",
+      "folder": "maternal_health_risk",
+      "n_train": 811,
+      "n_test": 203,
+      "n_features": 6,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46942,
+      "name": "miami_housing",
+      "status": "ok",
+      "folder": "miami_housing",
+      "n_train": 11020,
+      "n_test": 2756,
+      "n_features": 15,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46969,
+      "name": "NATICUSdroid",
+      "status": "ok",
+      "folder": "NATICUSdroid",
+      "n_train": 5992,
+      "n_test": 1499,
+      "n_features": 86,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46947,
+      "name": "online_shoppers_intention",
+      "status": "ok",
+      "folder": "online_shoppers_intention",
+      "n_train": 9864,
+      "n_test": 2466,
+      "n_features": 17,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46949,
+      "name": "physiochemical_protein",
+      "status": "ok",
+      "folder": "physiochemical_protein",
+      "n_train": 36584,
+      "n_test": 9146,
+      "n_features": 9,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46950,
+      "name": "polish_companies_bankruptcy",
+      "status": "ok",
+      "folder": "polish_companies_bankruptcy",
+      "n_train": 4728,
+      "n_test": 1182,
+      "n_features": 64,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46952,
+      "name": "qsar-biodeg",
+      "status": "ok",
+      "folder": "qsar-biodeg",
+      "n_train": 843,
+      "n_test": 211,
+      "n_features": 41,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46953,
+      "name": "QSAR-TID-11",
+      "status": "ok",
+      "folder": "QSAR-TID-11",
+      "n_train": 4593,
+      "n_test": 1149,
+      "n_features": 1024,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46954,
+      "name": "QSAR_fish_toxicity",
+      "status": "ok",
+      "folder": "QSAR_fish_toxicity",
+      "n_train": 725,
+      "n_test": 182,
+      "n_features": 6,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46955,
+      "name": "SDSS17",
+      "status": "ok",
+      "folder": "SDSS17",
+      "n_train": 62442,
+      "n_test": 15611,
+      "n_features": 11,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46956,
+      "name": "seismic-bumps",
+      "status": "ok",
+      "folder": "seismic-bumps",
+      "n_train": 2067,
+      "n_test": 517,
+      "n_features": 15,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46958,
+      "name": "splice",
+      "status": "ok",
+      "folder": "splice",
+      "n_train": 2552,
+      "n_test": 638,
+      "n_features": 60,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46960,
+      "name": "students_dropout_and_academic_success",
+      "status": "ok",
+      "folder": "students_dropout_and_academic_success",
+      "n_train": 3539,
+      "n_test": 885,
+      "n_features": 36,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46961,
+      "name": "superconductivity",
+      "status": "ok",
+      "folder": "superconductivity",
+      "n_train": 17010,
+      "n_test": 4253,
+      "n_features": 81,
+      "task_type": "regression"
+    },
+    {
+      "dataset_id": 46962,
+      "name": "taiwanese_bankruptcy_prediction",
+      "status": "ok",
+      "folder": "taiwanese_bankruptcy_prediction",
+      "n_train": 5455,
+      "n_test": 1364,
+      "n_features": 94,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46963,
+      "name": "website_phishing",
+      "status": "ok",
+      "folder": "website_phishing",
+      "n_train": 1082,
+      "n_test": 271,
+      "n_features": 9,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46964,
+      "name": "wine_quality",
+      "status": "ok",
+      "folder": "wine_quality",
+      "n_train": 5197,
+      "n_test": 1300,
+      "n_features": 12,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46980,
+      "name": "MIC",
+      "status": "ok",
+      "folder": "MIC",
+      "n_train": 1359,
+      "n_test": 340,
+      "n_features": 111,
+      "task_type": "classification"
+    },
+    {
+      "dataset_id": 46979,
+      "name": "jm1",
+      "status": "ok",
+      "folder": "jm1",
+      "n_train": 8708,
+      "n_test": 2177,
+      "n_features": 21,
+      "task_type": "regression"
+    }
+  ],
+  "folds_augmented_at": "2026-04-24T14:44:49",
+  "folds_augmentation": {
+    "ok": 51,
+    "skipped": 0,
+    "failed": 0,
+    "warned": 0,
+    "total_attempted": 51
+  }
+}

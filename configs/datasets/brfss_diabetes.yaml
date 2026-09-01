@@ -1,0 +1,7 @@
+# Geographic shift: train on South+Midwest, test on Northeast+West
+name: brfss_diabetes
+loader: src.data.brfss:load_brfss_diabetes
+params:
+  train_regions: ["south", "midwest"]
+  test_regions: ["northeast", "west"]
+  max_samples: 50000

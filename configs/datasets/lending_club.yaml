@@ -1,0 +1,8 @@
+# Temporal / financial shift: train on 2007-2014, test on 2015-2018
+# CSV expected at: data/accepted_2007_to_2018Q4.csv (auto-detected)
+name: lending_club
+loader: src.data.lending_club:load_lending_club
+params:
+  train_years: [2007, 2014]
+  test_years: [2015, 2018]
+  max_samples: 50000

@@ -1,0 +1,6 @@
+name: bike_sharing
+loader: src.data.bike_sharing:load_bike_sharing
+params:
+  train_year: 0   # 2011
+  test_year: 1    # 2012
+  max_samples: null

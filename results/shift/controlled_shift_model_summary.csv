@@ -1,0 +1,4 @@
+model,test_time_configurations,complete_five_levels,larger_benefit_at_shift5,smaller_benefit_at_shift5,unchanged_at_shift5,strictly_increasing,strictly_decreasing,nonmonotonic_or_partly_tied,strictly_increasing_and_exceeds_baseline_everywhere,exceeds_baseline_at_every_level
+bag8,134,134,18,115,1,1,35,98,0,7
+tabicl,125,125,40,84,1,8,7,110,1,14
+tabpfn,125,105,43,61,1,8,10,87,0,0

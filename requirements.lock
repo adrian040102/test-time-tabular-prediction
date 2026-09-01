@@ -1,0 +1,23 @@
+# Curated direct dependency versions used for the reported experiments.
+# This is not a complete transitive or platform-level lock. TabPFN must be
+# installed separately before this file because its declared scikit-learn bound
+# conflicts with the recorded environment. See the repository README.
+
+# Prediction models
+autogluon.tabular==1.4.0
+lightgbm==4.6.0
+tabicl==2.1.1
+# Reported version, installed separately: tabpfn==2.2.1
+
+# Numerical and data dependencies
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+pyarrow==20.0.0
+openTSNE==1.0.4
+PyYAML==6.0.3
+
+# GPU note
+# TabPFNv2 and TabICLv2 require a PyTorch build compatible with the target
+# hardware. Install the appropriate CPU or CUDA build separately.
